@@ -1,0 +1,22 @@
+public class NumeroInvertido {
+    public static void main (String [] arg)
+    throws java.io.IOException
+    {
+        //variaveis
+int primeiro, segundo, terceiro, restante;
+
+System.out.println( "Digite 3 numeros");
+
+primeiro = System.in.read() / 100;
+restante = System.in.read() %100;
+segundo = restante / 10;
+terceiro = restante%10;
+
+System.out.println(terceiro);
+System.out.println(segundo);
+System.out.println(primeiro);
+}
+
+
+}
+  
